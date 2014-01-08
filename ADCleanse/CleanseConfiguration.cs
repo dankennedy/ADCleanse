@@ -9,6 +9,7 @@ namespace ADCleanse
         public virtual string LdapRoot { get; set; }
         public virtual string Username { get; set; }
         public virtual string Password { get; set; }
+        public virtual bool DryRun { get; set; }
 
         [XmlArray]
         [XmlArrayItem("Property")]

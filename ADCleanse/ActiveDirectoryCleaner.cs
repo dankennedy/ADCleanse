@@ -27,6 +27,9 @@ namespace ADCleanse
 
         public void Clean()
         {
+            if (_configuration.DryRun)
+                Log.Info("Performing DryRun. All updates will be skipped");
+
             _unMatchedPropertyValues.Clear();
             using (var root = GetRootDirectoryEntry())
             {
@@ -85,7 +88,14 @@ namespace ADCleanse
 
                 foreach (var match in property.Matches)
                 {
-                    if (!Regex.IsMatch(stringValue, match.Pattern)) continue;
+                    if (stringValue == match.Value)
+                    {
+                        matched = true;
+                        break;
+                    }
+
+                    if (!Regex.IsMatch(stringValue, match.Pattern)) 
+                        continue;
 
                     Log.InfoFormat("Matched {0}. Updating {1} from {2} to {3}",
                         match.Pattern,
@@ -93,10 +103,12 @@ namespace ADCleanse
                         stringValue,
                         match.Value);
 
-                    if (entry == null)
+                    if (entry == null && !_configuration.DryRun)
                         entry = result.GetDirectoryEntry();
 
-                    entry.Properties[property.Name].Value = match.Value;
+                    if (!_configuration.DryRun)
+                        entry.Properties[property.Name].Value = match.Value;
+
                     matched = true;
                     break;
                 }
