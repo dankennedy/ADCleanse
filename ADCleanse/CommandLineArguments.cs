@@ -7,9 +7,11 @@ namespace ADCleanse
 	public class CommandLineArguments : CommandLineArgumentsBase
     {
         private const string ARG_HELP = "?";
+        private const string ARG_ACTION = "a";
 
         private static readonly string[] AllArgs = {
-                                                       ARG_HELP
+                                                       ARG_HELP,
+                                                       ARG_ACTION
                                                    };
         public CommandLineArguments(string[] args) : base(args)
         {
@@ -25,6 +27,15 @@ namespace ADCleanse
             get { return Parameters.ContainsKey(ARG_HELP); }
         }
 
+	    public ActionEnum Action
+	    {
+            get 
+            { 
+                return string.IsNullOrEmpty(Parameters[ARG_ACTION]) ? 
+                    ActionEnum.Query : 
+                    (ActionEnum)Enum.Parse(typeof(ActionEnum), Parameters[ARG_ACTION], true); 
+            }
+	    }
         public override string UsageMessage
         {
             get

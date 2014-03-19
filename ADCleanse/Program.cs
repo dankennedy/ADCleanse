@@ -32,9 +32,31 @@ namespace ADCleanse
                     return -1;
                 }
 
-                var config = (CleanseConfiguration)ConfigurationManager.GetSection(typeof(CleanseConfiguration).Name);
-                var cleaner = new ActiveDirectoryCleaner(config);
-                cleaner.Clean();
+                switch (Options.Action)
+                {
+                    case ActionEnum.Query:
+                        var query = new ActiveDirectoryQuery((QueryConfiguration)
+                            ConfigurationManager.GetSection(typeof(QueryConfiguration).Name));
+                        query.Execute();
+                        break;
+                    case ActionEnum.Clean:
+                        var cleaner = new ActiveDirectoryCleaner((CleanseConfiguration)
+                            ConfigurationManager.GetSection(typeof(CleanseConfiguration).Name));
+                        cleaner.Clean();
+                        break;
+                    case ActionEnum.PrepareBeta:
+                        var prepareBeta = new ActiveDirectoryPrepareBeta((PrepareBetaConfiguration)
+                            ConfigurationManager.GetSection(typeof(PrepareBetaConfiguration).Name));
+                        prepareBeta.Execute();
+                        break;
+                    case ActionEnum.PrepareChina:
+                        var prepareChina = new ActiveDirectoryPrepareChina((PrepareChinaConfiguration)
+                            ConfigurationManager.GetSection(typeof(PrepareChinaConfiguration).Name));
+                        prepareChina.Execute();
+                        break;
+                    default:
+                        throw new ArgumentOutOfRangeException();
+                }
 
                 Log.Info("Finished");
 

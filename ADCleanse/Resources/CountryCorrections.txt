@@ -1,0 +1,164 @@
+Harlow & Strand	Europe-Middle East-Africa	United Kingdom	GB	826
+	190HH & BS	United Kingdom	GB	826
+EMEA	AEDUB	United Arab Emirates	AE	784
+Latin America	ARBA	Argentina	AR	32
+Australia	AUHBAHB	Australia	AU	36
+EMEA	AUHBEQ	Australia	AU	37
+Australia	AUMELCS	Australia	AU	36
+Australia	AUMELDC	Australia	AU	36
+Australia	AUMELNW	Australia	AU	36
+Australia	AUSYDES2	Australia	AU	36
+Australia	AUSYDES1	Australia	AU	36
+Australia	AUSYDFF	Australia	AU	36
+Australia	AUMELLS	Australia	AU	36
+Latin America	BOPAZ	Brazil	BR	76
+Latin America	BRSPO1	Brazil	BR	76
+Latin America	BRRAO1	Brazil	BR	76
+Latin America	BRRAO3	Brazil	BR	76
+Latin America	BRCWB1	Brazil	BR	76
+Latin America	BRRAO4	Brazil	BR	76
+EMEA	BRWSI	Brazil	BR	76
+EMEA	BRCDP	Brazil	BR	76
+Asia	CHBEI	China	CN	156
+Latin America	CLSAN	Chile	CL	152
+Asia	CNHKG	China	CN	156
+Asia	CNBJSDC	China	CN	156
+Asia	CNBJSHD	China	CN	156
+Asia	CNLongmanschools	China	CN	156
+Asia	CNWSE	China	CN	156
+Asia	CNGEDU	China	CN	156
+Asia	CNSHA	China	CN	156
+Asia	CNCAN	China	CN	156
+Asia	CNBJS	China	CN	156
+Asia	CNSHAFZ	China	CN	156
+Latin America	COBOG	Colombia	CO	170
+EMEA	DEHAL	Germany	DE	276
+EMEA	DEMUN	Germany	DE	276
+EMEA	DEMUN	Germany	DE	276
+EMEA	DEVER	Germany	DE	276
+EMEA	DEWSI	Germany	DE	276
+EMEA	DEZOL	Germany	DE	276
+Latin America	ECQUI	Ecuador	EC	218
+Latin America	ECGUA	Ecuador	EC	218
+EMEA	ESWSI	Spain	ES	724
+Europe-Middle East-Africa	Amsterdam	Netherlands	NL	528
+Europe-Middle East-Africa	Amsterdam\, Benelux	Netherlands	NL	528
+Europe-Middle East-Africa	FR	France	FR	250
+Europe-Middle East-Africa	NL	Netherlands	NL	528
+Europe-Middle East-Africa	DE	Germany	DE	276
+Europe-Middle East-Africa	Harlow & Strand	United Kingdom	GB	826
+Europe-Middle East-Africa	Harlow & Strand\, UK	United Kingdom	GB	826
+Europe-Middle East-Africa	Jordan Hill UK	United Kingdom	GB	826
+Europe-Middle East-Africa	Jordan Hill\, UK	United Kingdom	GB	826
+Europe-Middle East-Africa	Salisbury	United Kingdom	GB	826
+Europe-Middle East-Africa	Salisbury\, UK	United Kingdom	GB	826
+Europe-Middle East-Africa	Athens	Greece	GR	300
+Europe-Middle East-Africa	Athens\, Greece	Greece	GR	300
+Europe-Middle East-Africa	Dubai	United Arab Emirates	AE	784
+Europe-Middle East-Africa	Dubai\, UAE	United Arab Emirates	AE	784
+Europe-Middle East-Africa	Frankfurt	Germany	DE	276
+Europe-Middle East-Africa	Frankfurt\, Germany	Germany	DE	276
+Europe-Middle East-Africa	Istanbul	Turkey	TR	792
+Europe-Middle East-Africa	Istanbul\, Turkey	Turkey	TR	792
+Europe-Middle East-Africa	Madrid	Spain	ES	724
+Europe-Middle East-Africa	Madrid\, Spain	Spain	ES	724
+Europe-Middle East-Africa	Milan	Italy	IT	380
+Europe-Middle East-Africa	Milan\, Italy	Italy	IT	380
+Europe-Middle East-Africa	Munich	Germany	DE	276
+Europe-Middle East-Africa	Munich\, Germany	Germany	DE	276
+Europe-Middle East-Africa	Paris	France	FR	250
+Europe-Middle East-Africa	Paris\, France	France	FR	250
+Europe-Middle East-Africa	Warsaw	Poland	PL	616
+Europe-Middle East-Africa	Warsaw\, Poland	Poland	PL	616
+Europe-Middle East-Africa	Zug	Switzerland	CH	756
+Europe-Middle East-Africa	Zug\, Switzerland	Switzerland	CH	756
+EMEA	ZACPT	South Africa	ZA	710
+EMEA	ZASAN	South Africa	ZA	710
+EMEA	ZACTI	South Africa	ZA	710
+EMEA	ZAMGI	South Africa	ZA	710
+EMEA	ZAROS	South Africa	ZA	710
+North America	USHADMA	United States	US	840
+North America	USSACNS	United States	US	840
+North America	USAUSNX	United States	US	840
+North America	USMALNS	United States	US	840
+North America	USAUSTR	United States	US	840
+North America	USNY1330	United States	US	840
+North America	USFIELD	United States	US	840
+North America	USSF	United States	US	840
+North America	USCHIGO	United States	US	840
+North America	USCHAAZ	United States	US	840
+North America	USOFFSHR	United States	US	840
+North America	USBGTMN	United States	US	840
+North America	USOWATN	United States	US	840
+North America	USNY345	United States	US	840
+North America	USPPCS	United States	US	840
+North America	USCEDAR	United States	US	840
+North America	USUSRLS	United States	US	840
+North America	USDNVCO	United States	US	840
+North America	USBTIMD	United States	US	840
+North America	USSAOTX	United States	US	840
+North America	USAOCTR	United States	US	840
+North America	USSANUT	United States	US	840
+North America	USBLOIN	United States	US	840
+North America	USBLOMN	United States	US	840
+North America	USRANCA	United States	US	840
+North America	USBOMAS	United States	US	840
+North America	USGLENV	United States	US	840
+North America	USNY375	United States	US	840
+North America	USCORCR	United States	US	840
+North America	USBOSTN	United States	US	840
+North America	USINDPK	United States	US	840
+North America	USBTMMD	United States	US	840
+North America	USNYKNY	United States	US	840
+North America	USCRANB	United States	US	840
+North America	USBRICA	United States	US	840
+USIOWAC	Users	United States	US	840
+North America	USOLDT1	United States	US	840
+EMEA	UKEDG	United Kingdom	GB	826
+EMEA	UKSTR	United Kingdom	GB	826
+EMEA	UKMSL	United Kingdom	GB	826
+EMEA	UKJOR	United Kingdom	GB	826
+EMEA	UKSAL	United Kingdom	GB	826
+EMEA	UKTQ	United Kingdom	GB	826
+EMEA	UKMET	United Kingdom	GB	826
+EMEA	UKINH	United Kingdom	GB	826
+EMEA	UKCEN	United Kingdom	GB	826
+EMEA	UKLO3	United Kingdom	GB	826
+EMEA	UK	United Kingdom	GB	826
+EMEA	UKLO1	United Kingdom	GB	826
+EMEA	UKCOR	United Kingdom	GB	826
+Asia	INNDELI15	India	IN	356
+Asia	INNOIDADK	India	IN	356
+Asia	INNDELI16	India	IN	356
+Asia	INBNGKA	India	IN	356
+Asia	INPUNIN	India	IN	356
+Asia	INNOIDA	India	IN	356
+Asia	JPTYO	Japan	JP	392
+Asia	JPTYOSJ	Japan	JP	392
+Asia	JPTYOVUE	Japan	JP	392
+Latin America	MXMEX	MEXICO	MX	484
+Latin America	MXMTY	MEXICO	MX	484
+Latin America	MXGDL	MEXICO	MX	484
+Asia	MYPET	Malaysia	MY	458
+Asia	PHMAN	Philippines	PH	608
+Asia	PHQZC	Philippines	PH	608
+Asia	VNHCM	Vietnam	VN	704
+Asia	IDJAK	Indonesia	ID	360
+Asia	IDWSE	Indonesia	ID	360
+EMEA	ITMIL2	Italy	IT	380
+EMEA	ITMIL	Italy	IT	380
+EMEA	SAMED	Saudi Arabia	SA	682
+Asia	THBKK	Thailand	TH	764
+F1	Australia	Australia	AU	36
+Asia	KRSEL	Korea	KR	410
+Edexcel	Manchester	United Kingdom	GB	826
+Latin America	NIMAN	Nicaragua	NI	558
+EMEA	NOOSL	Norway	NO	578
+Higher Education-International-Professional Publishing	North America	Canada	CA	124
+Australia	NZAKLRD	New Zealand	NZ	554
+Latin America	PELIM	Peru	PE	604
+EMEA	PLPOZ	Poland	PL	616
+EMEA	RUMOS	Russia	RU	643
+Latin America	SASANS	Saudi Arabia	SA	682
+EMEA	SEIDG	Saudi Arabia	SE	752
+Asia	SGSGP	Singapore	SG	702

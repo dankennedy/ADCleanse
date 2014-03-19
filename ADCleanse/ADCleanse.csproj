@@ -30,6 +30,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="log4net">
@@ -43,12 +44,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActionEnum.cs" />
     <Compile Include="ActiveDirectoryCleaner.cs" />
+    <Compile Include="ActiveDirectoryPrepareChina.cs" />
+    <Compile Include="ActiveDirectoryPrepareBeta.cs" />
+    <Compile Include="ActiveDirectoryQuery.cs" />
     <Compile Include="CleanseConfiguration.cs" />
     <Compile Include="CommandLineArguments.cs" />
     <Compile Include="CommandLineArgumentsBase.cs" />
+    <Compile Include="CountryCorrection.cs" />
+    <Compile Include="IsoCountry.cs" />
+    <Compile Include="MatchFunctionResult.cs" />
+    <Compile Include="MatchFunctions.cs" />
+    <Compile Include="PrepareChinaConfiguration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PrepareBetaConfiguration.cs" />
+    <Compile Include="QueryConfiguration.cs" />
     <Compile Include="XmlSerializerSectionHandler.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -56,6 +68,10 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="packages.config" />
+    <EmbeddedResource Include="Resources\CountryCorrections.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\IsoCountries.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
